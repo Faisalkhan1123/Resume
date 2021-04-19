@@ -1,0 +1,41 @@
+body {
+  background-color: #eca3f5;
+}
+
+hr {
+  border-style: hidden;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+}
+
+h1,
+h3 {
+  color: #8c0000;
+}
+
+p {
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+  font-family: serif;
+  font-size: 20px;
+  background-image: repeating-linear-gradient();
+}
+a:link {
+  color:  #8c0000;
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
